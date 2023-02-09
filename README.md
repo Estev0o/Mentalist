@@ -1,2 +1,3 @@
 # Mentalist
-Mentalista - 6° ImersaoDev Alura 
+Mentalista - 6° ImersaoDev Alura <br>
+Responsivo!
