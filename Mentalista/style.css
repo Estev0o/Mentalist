@@ -1,0 +1,126 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background: linear-gradient(#251749, #000000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    
+}
+
+
+body>img {
+    margin: 20px 10px;
+}
+
+.brain {
+    max-height: 350px;
+    box-shadow: 0px 10px 30px #00000056;
+    max-width: 90%;
+}
+
+.centerTop {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+
+.centerBottom {
+    bottom: 5%;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.startButton {
+    position: center;
+    width: 100%;
+    
+}
+
+#btnStart {
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #DA1E26;
+    padding: 6px;
+
+}
+
+#btnStart:hover {
+    color: #DA1E26;
+    background-color: #F1F6F5;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    
+}
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 4em 0;
+}
+
+.icon i {
+    font-size: 2.5rem;
+}
+
+.btn {
+    display: inline-block;
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50% 50%;
+    box-shadow: 0 10px 0 -4px;
+    color: #DA1E26;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    
+    transition: all 0.5s ease-out;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 3em 0 0 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 950px){
+    body {
+        height: 160vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        height: 340vw;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    body {
+        height: 130vw;
+    }
+}
